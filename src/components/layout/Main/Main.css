@@ -1,0 +1,15 @@
+/**************** For mobile phones and tablets: ****************/
+.Main{
+   background-color: aqua;
+   display: flex;
+   flex-direction: column;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+   .Main{
+      flex-direction: row;
+      width: 700px;
+   }
+}
+

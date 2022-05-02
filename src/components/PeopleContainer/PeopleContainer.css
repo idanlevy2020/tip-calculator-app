@@ -1,0 +1,12 @@
+/**************** For mobile phones and tablets: ****************/
+.PeopleContainer{
+   border:1px solid black;
+   width:100%;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+   .PeopleContainer{
+      width:50%;
+   }
+}
