@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
    return (
       <div className="Header">
-         <h1>tip calculator app </h1>
+         <h1><span>Tip</span> Calculator</h1>
       </div>
    );
 }

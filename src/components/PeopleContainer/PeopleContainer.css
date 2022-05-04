@@ -1,12 +1,45 @@
 /**************** For mobile phones and tablets: ****************/
 .PeopleContainer{
-   border:1px solid black;
    width:100%;
+}
+
+.PeopleContainer input{
+   font-size: 24px;
+   font-weight: 700;
+   color:#00494d;
+   outline: none;
+   border: 2px solid #dfe7e7;;
+   border-radius: 15px;
+   background-color:#dfe7e7
+}
+
+ /* label focus color */
+ input[type=text]:focus {
+   border: 2px solid #26c0ab;;
+ }
+
+.PeopleContainer p{
+   color:#5e5d5d;
+   font-weight: 700;
+}
+
+.PeopleContainer button{
+   color:white;
+   background-color:#00494d;
+   border:none;
+   border-radius:5px;
+   width: 100px;
+   height:30px;
+   margin:5px;
+}
+
+.PeopleContainer button:hover{
+   background-color:#26c0ab;
 }
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
    .PeopleContainer{
-      width:50%;
+      width:330px;
    }
 }

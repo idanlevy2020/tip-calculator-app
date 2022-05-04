@@ -1,14 +1,19 @@
 /**************** For mobile phones and tablets: ****************/
 .Main{
-   background-color: aqua;
+   background-color: white;
    display: flex;
    flex-direction: column;
+   /* width: 100%; */
+   padding: 20px 0px;
+   border-radius:15px;
 }
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
    .Main{
       flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       width: 700px;
    }
 }

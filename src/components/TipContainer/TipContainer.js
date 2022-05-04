@@ -3,7 +3,15 @@ import "./TipContainer.css";
 function TipContainer() {
    return (
       <div className="TipContainer">
-         <h1> TipContainer </h1>
+         <div>
+            <p>Tip Ammount</p>
+            <p>4.27$</p>
+         </div>
+         <div>
+            <p>Total</p>
+            <p>32.79$</p>
+         </div>
+         <button>Reset</button>
       </div>
    );
 }
